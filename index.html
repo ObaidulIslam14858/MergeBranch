@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Repo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #f5f9ff;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            color: #3a3b3c;
+        }
+
+        .hero-section p {
+            color: #6c757d;
+        }
+
+        .about-section {
+            padding: 60px 20px;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .testimonials-section {
+            background-color: #f5f9ff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .testimonial {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-section {
+            padding: 60px 20px;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">LogoIpsum</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                <li class="nav-item"><a class="btn btn-primary" href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <h1>I create product design and brand experience</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    <button class="btn btn-primary">Get In Touch</button>
+</section>
+
+<!-- Expertise Section -->
+<section class="about-section container text-center">
+    <h2>My Expertise</h2>
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <h5>Strategy & Direction</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <h5>Branding & Logo</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <h5>UI & UX Design</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <h5>Webflow Development</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio-section container my-5">
+    <h2 class="text-center">My Portfolio</h2>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="Group 11 1.png" alt="Ahuse Project">
+                <h5>Ahuse</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn btn-link">View In Dribbble</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="About Me.png" alt="App Dashboard">
+                <h5>App Dashboard</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn btn-link">View In Dribbble</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="Row.png" alt="Easy Rent">
+                <h5>Easy Rent</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn btn-link">View In Dribbble</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+    <h2>Customer testimonials</h2>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    <h6>Dianne Russell</h6>
+                    <span>Starbucks</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    <h6>Kristin Watson</h6>
+                    <span>Louis Vuitton</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    <h6>Kathryn Murphy</h6>
+                    <span>McDonald's</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section container">
+    <h2 class="text-center">Contact me</h2>
+    <form>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="col-md-6 mt-3">
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-md-6 mt-3">
+                <input type="text" class="form-control" placeholder="Phone number">
+            </div>
+            <div class="col-12 mt-3">
+                <select class="form-select">
+                    <option selected>Choose a topic</option>
+                    <option value="1">General Inquiry</option>
+                    <option value="2">Project Proposal</option>
+                    <option value="3">Other</option>
+                </select>
+            </div>
+            <div class="col-12 mt-3">
+                <textarea class="form-control" rows="4" placeholder="Type your message..."></textarea>
+            </div>
+            <div class="col-12 mt-3 form-check">
+                <input type="checkbox" class="form-check-input" id="acceptTerms">
+                <label class="form-check-label" for="acceptTerms">I accept the terms</label>
+            </div>
+            <div class="col-12 mt-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>Made with ❤️ by Articokn</p>
+    <p>&copy; 2024 LogoIpsum. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
